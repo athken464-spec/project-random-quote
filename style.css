@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("ken.jpg"); 
+  padding:0;
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div {
+  background: linear-gradient(rgb(10, 10, 97),white);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 900x;
+  text-align: center;
+}
+
+#quote {
+  font-size: 1rem;
+  color: #070707;
+  font-style: italic;
+  margin-bottom: 30px;
+  
+}
+
+#author {
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 20px
+}
+
+button {
+  background-color: #0c2e51;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
